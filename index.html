@@ -4,12 +4,34 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Calculador - Conversor entre bases numéricas">
+    <meta name="description" content="Calculador - Conversão entre bases numéricas">
     <meta name="author" content="LCano">
     <link rel="icon" href="img/iconCalculadora.png">
-	<title>Calculador - Conversor entre bases numéricas</title>
+	<title>Calculadora - Conversão entre bases numéricas</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<div class="panel">
+  		<div class="panel-heading">
+    		<h3 class="panel-title">Conversão entre bases numéricas</h3>
+  		</div>
+  		<div class="panel-body">
+  			<label for="num_dec">Decimal</label>
+			<input name="num_dec" id="num_dec" type="text" maxlength="15"/>
+			<br>
 
+			<label for="num_bin">Binário</label>
+			<input name="num_bin" id="num_bin" type="text" maxlength="50"/>
+			<br>
+
+			<label for="num_oct">Octal</label>
+			<input name="num_oct" id="num_oct" type="text" maxlength="15"/>
+			<br>
+
+			<label for="num_hex">Hexadecimal</label>
+			<input name="num_hex" id="num_hex" type="text" maxlength="13"/>
+			<br>
+  		</div>
+  	</div>
 </body>
 </html>
